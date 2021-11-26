@@ -65,10 +65,10 @@ void TEST_MainPage(void)
 	//GUI_ShowCHinese(28,20,16,"Ð¡½ð",1);
 	//GUI_ShowCHinese(10,20,16,"½¯Ä½·²",1);
 	
-	GUI_ShowString(28,0,"MyNameIs",16,1);
-	GUI_ShowCHinese(28,20,16,"½¯Ä½·²",1);
+	GUI_ShowString(28,0,"I am",16,1);
+	GUI_ShowCHinese(28,20,16,"ÓàÑÕ",1);
 	//GUI_ShowString(40,32,"64X128",16,1);
-	GUI_ShowString(4,48,"631907060208",16,1);
+	GUI_ShowString(4,48,"631907060228",16,1);
 	//GUI_ShowString(4,48,"www.lcdwiki.com",16,1);*/
 	delay_ms(1500);		
 	delay_ms(1500);

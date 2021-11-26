@@ -15,6 +15,6 @@
 "..\obj\stm32f10x_rcc.o"
 "..\obj\stm32f10x_spi.o"
 --strict --scatter "..\OBJ\TEST_OLED.sct"
---summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
 --list ".\TEST_OLED.map" -o ..\OBJ\TEST_OLED.axf

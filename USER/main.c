@@ -51,12 +51,15 @@
 #include "gui.h"
 #include "test.h"
 int main(void)
-	
-
-
-
 {	
-	delay_init();	    	       //延时函数初始化	  
+	delay_init();	    	         //延时函数初始化	  
+	OLED_Init();			         //初始化OLED  
+	OLED_Clear(0);                   //清屏（全黑）
+	while(1) 
+	{	
+		TEST_MainPage();                 //界面显示
+	}
+	/*delay_init();	    	       //延时函数初始化	  
 	NVIC_Configuration(); 	   //设置NVIC中断分组2:2位抢占优先级，2位响应优先级 	
 	OLED_Init();			         //初始化OLED  
 	OLED_Clear(0);             //清屏（全黑）
@@ -98,6 +101,6 @@ int main(void)
 		TEST_Menu1();            //菜单1显示测试
 		OLED_Clear(0); 
 		TEST_Menu2();            //菜单2显示测试
-		OLED_Clear(0); */
-	}
+		OLED_Clear(0); 
+	}*/
 }
